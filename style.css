@@ -1,3 +1,73 @@
+* {
+  border: 0;
+  margin: 0;
+}
+html {
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+}
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.curved-cont,
+.features-cont {
+  width: 90%;
+  background-color: hsl(228, 56%, 26%);
+  padding: 45px;
+  box-sizing: border-box;
+  border-radius: 12px 60px 12px 12px;
+  margin-bottom: 15px;
+}
+.logo {
+  margin-bottom: 30px;
+  width: 100%;
+}
+.icon-cont {
+  width: 100%;
+  display: flex;
+}
+.imgBox {
+  width: 30px;
+  height: 30px;
+  background-color: hsl(229, 57%, 11%);
+  padding: 10px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.features-cont {
+  border-radius: 12px;
+  color: hsl(229, 7%, 55%);
+}
+.para-1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.highlight,
+.marks {
+  color: hsl(243, 100%, 93%);
+  font-weight: 700;
+}
+.inputCont {
+  width: 100%;
+  margin-bottom: 15px;
+}
+#rangeSlider {
+  width: 100%;
+  margin-bottom: 7px;
+}
+.sliderEnds {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
